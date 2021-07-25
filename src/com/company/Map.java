@@ -2,8 +2,8 @@ package com.company;
 
 
 public class Map {
-    private int rows;
-    private int cols;
+    private final int rows;
+    private final int cols;
     public char[][] map;
 
     public Map(int rows, int cols){
