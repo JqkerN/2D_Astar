@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Astar {
     // Instance field
-    private final int[][] pathMovers = {{-1,0}, {0,-1}, {0,1}, {1,1}};
+    private final int[][] pathMovers = {{-1,0}, {0,-1}, {0,1}, {1,0}};
     public Map map;
     private final Node start;
     private final Node goal;
@@ -41,7 +41,7 @@ public class Astar {
                     // if valid Node it is added to the heap
                     if (map.inMap(nextPosition) && map.isValid(nextPosition)){
                         // Calculates the cost with the heuristic
-                        nextNode.costToHome = current.costToHome + 1;
+                        nextNode.costToHome = current.costToHome + 1.0;
                         nextNode.cost = this.heuristic(nextNode, start);
                         // update heap and map with the next valid Node
                         nextNode.setPreviousNode(current);
