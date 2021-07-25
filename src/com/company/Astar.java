@@ -7,8 +7,8 @@ public class Astar {
     // Instance field
     private final int[][] pathMovers = {{-1,0}, {0,-1}, {0,1}, {1,0}};
     public Map map;
-    private final Node start;
-    private final Node goal;
+    private Node start;
+    private Node goal;
     private Heap heap;
 
     // Constructor
