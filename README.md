@@ -1,2 +1,2 @@
 # A*
-A simple implementation of A* in Java.
+A simple implementation of A* in Java. 
