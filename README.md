@@ -1,3 +1,2 @@
 # A*
-A simple implementation of A* in Java. 
-asd123
+A simple implementation of A* in Java.
