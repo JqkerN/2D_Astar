@@ -1,1 +1,2 @@
-# 2D_Astar
+# A*
+A simple implementation of A* in Java.
